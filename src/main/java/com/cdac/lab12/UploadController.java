@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+/**
+ * The class uploads a file
+ * 
+ */
 @Controller
 public class UploadController {
 	@RequestMapping(value = "/upload-image", method = RequestMethod.POST)
